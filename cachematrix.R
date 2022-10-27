@@ -20,7 +20,6 @@ makeCacheMatrix <- function(x = matrix()) {
              getInverse = getInverse)
 }
 
-
 ## the below function gets the inverse of a given matrix and cache it using the
 ## MakeCacheMatrix functions, if the matrix is already submitted, the function
 ## will get the inverse from the cache. Otherwise, it will compute it and store
